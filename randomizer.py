@@ -36,5 +36,12 @@ def create_random_codes(k=1, start=0, n_digits=4):
 
     return code_list
 
+def save_list(code_list, file_path):
 
-code_list = create_random_codes(k=5)
+    file=open(file=file_path ,mode="w")
+    file.writelines( "%s\n" % item for item in code_list)
+
+    file.close()
+
+code_list = create_random_codes(k=200, start=183)
+save_list(code_list=code_list, file_path="ibsi_codes.txt")
