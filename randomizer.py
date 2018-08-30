@@ -43,5 +43,5 @@ def save_list(code_list, file_path):
 
     file.close()
 
-code_list = create_random_codes(k=200, start=183)
+code_list = create_random_codes(k=200, start=243)
 save_list(code_list=code_list, file_path="ibsi_codes.txt")
