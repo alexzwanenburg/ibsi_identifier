@@ -222,3 +222,4 @@ align grid centers	3WE3
 align grid centers interpolation grid dimensions	026Q
 align grid centers grid positions	QCY4
 ROI extraction	1OBP
+feature computed from a single matrix after merging 2D directional matrices per direction, and averaged over directions	JJUI
