@@ -225,65 +225,48 @@ ROI extraction	1OBP
 feature computed from a single matrix after merging 2D directional matrices per direction, and averaged over directions	JJUI
 Calculation Run Space	GFJV
 FeatureParameterSpace	CINW
-Aggregation Parameters	1XL1
-2.5D
-2.5DAverage
-2.5DMerging
-2D
-2DAverage
-2DMerging
-3D
-3DAverage
-3DMerging
-DiscretizationParameters	8QU8
-Equalisation	I7X7
-FixedBinNumber
-FixedBinSize
-Lloyd-Max	SSX6
-FeatureSpecificParameters	OWOH
-Asymmetrical	9LZ9
-ChebyshevNorm
-Symmetrical	2IQV
-Euclidean Norm
-ManhattanNorm
-FunctionDistanceWeigthing	3S2S
-NoDistanceWeigthing	V0L6
-GLCMSpecificParameters	4S5Z
-GLRLMSpecificParameters	0OW5
-GLDZMSpecificParameters	6SLW
-NGTDMSpecificParameters	MV8M
+texture matrix aggregation parameters	1XL1
+intensity discretization parameters	8QU8
+histogram equalisation	I7X7
+Lloyd-Max discretisation	SSX6
+feature specific parameters	OWOH
+asymmetrical co-occurrence matrix	9LZ9
+symmetrical co-occurrence matrix	2IQV
+distance weighting function	3S2S
+no distance weighting	V0L6
+GLCM specific parameters	4S5Z
+GLRLM specific parameters	0OW5
+GLDZM specific parameters	6SLW
+NGTDM specific parameters	MV8M
 IntVolSpecificParameters	KQW7
 MaximumBound	X6TI
 MinimumBound	V2QW
-IsoValue	G5MN
-MarchingCubes	CRAM
-MorphologicalSpecificParameters	FFWD
-DependenceCoarseness	VXRR
-InterpolationParameters
-CubicConvolution	NV3D
-CubicSpline	2I2N
-Linear	X13G
-NearestNeighbour	EY9L
-ReSegmentationParameters	QP79
-OutlierRemoval
-ReSegmentationRange
-FilterProperties	LQBA
-BasisFunction	WZSA
-Biorthogonal35	QVI9
-Coif1	2CYL
-Haar	FR3E
-Frequency	P8W0
-WaweletDirection	IA9Q
-HHH	LCNJ
-HHL	S7CG
-HLH	UFRT
-HLL	RZ96
-LHH	CJ43
-LHL	76ZU
-LLL	NTRN
-LLH	6FPA
-ImageVolume_GreyLevelRound	G6RO
-EdgeEnhacement	IZBZ
+isovalue algorithm	G5MN
+marching cube algorithm	CRAM
+Morphological features specific parameters	FFWD
+dependence coarseness parameter	VXRR
+cubic convolution interpolation	NV3D
+cubic spline interpolation	2I2N
+linear interpolation	X13G
+nearest neighbour interpolation	EY9L
+re-segmentation parameters	QP79
+spatial filter properties	LQBA
+wavelet basis function	WZSA
+biorthogonal 3.5 wavelet	QVI9
+coiflet 1 wavelet	2CYL
+haar wavelet	FR3E
+frequency	P8W0
+wavelet filter direction	IA9Q
+HHH wavelet direction	LCNJ
+HHL wavelet direction	S7CG
+HLH wavelet direction	UFRT
+HLL wavelet direction	RZ96
+LHH wavelet direction	CJ43
+LHL wavelet direction	76ZU
+LLL wavelet direction	NTRN
+LLH wavelet direction	6FPA
+image grey level rounding	G6RO
+edge enhancement	IZBZ
 HistoEqualization	ZS1T
 LocalAreaHistoEqualization	Q2ZB
 ImageSpace	OB71
