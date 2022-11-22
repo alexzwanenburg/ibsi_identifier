@@ -1,6 +1,7 @@
 import numpy as np
 import string
 
+
 def create_random_codes(k=1, start=0, n_digits=4):
 
     # Get list of upper-case letters and digits
@@ -14,7 +15,7 @@ def create_random_codes(k=1, start=0, n_digits=4):
     np.random.seed(37)
 
     # Draw k+start random numbers, without resampling
-    all_int_codes = np.arange(start=0, stop=n_max-1,step=1, dtype=np.int)
+    all_int_codes = np.arange(start=0, stop=n_max-1, step=1, dtype=int)
     int_codes = np.random.choice(all_int_codes, size=k+start, replace=False)
 
     # Remove all before start so that k codes remain
@@ -36,12 +37,14 @@ def create_random_codes(k=1, start=0, n_digits=4):
 
     return code_list
 
+
 def save_list(code_list, file_path):
 
-    file=open(file=file_path ,mode="w")
+    file = open(file=file_path ,mode="w")
     file.writelines( "%s\n" % item for item in code_list)
 
     file.close()
 
-code_list = create_random_codes(k=200, start=363)
-save_list(code_list=code_list, file_path="ibsi_codes.txt")
+
+identifier_list = create_random_codes(k=200, start=413)
+save_list(code_list=identifier_list, file_path="ibsi_codes.txt")
