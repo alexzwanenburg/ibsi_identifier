@@ -410,3 +410,9 @@ modulus, magnitude or absolute response map	0J1M
 angle, phase or argument response map	V530	
 real	F7DI	
 imaginary	LI3Y	
+SUV-body weight	QU0G
+SUV-lean body mass (Morgan)	ID2R
+SUV-lean body mass (James et al.)	SRU0
+SUV-lean body mass (Janmahasatian)	DG2N
+SUV-ideal body weight	BCXP
+SUV-body surface area	MVYU
